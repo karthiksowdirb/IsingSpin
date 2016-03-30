@@ -1,0 +1,114 @@
+﻿Build started 2015/10/03 18:15:48.
+     1>Project "D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\IsingSpin.vcxproj" on node 2 (Build target(s)).
+     1>AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_CRT_SECURE_NO_WARNINGS /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /ID:\C++\vs2013\x64\boost_1_57_0 /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" /I. /FIcuda_runtime.h /c D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\Analysers.cu 
+       CudaBuild:
+         Compiling CUDA source file Analysers.cu...
+         cmd.exe /C "C:\Users\Karthik\AppData\Local\Temp\tmp486f46ffc4294d218174a5b89c06e85e.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -ID:\C++\vs2013\x64\boost_1_57_0 -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\Analysers.cu.obj "D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\Analysers.cu"
+         
+         D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env --cl-version 2013 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64"  -ID:\C++\vs2013\x64\boost_1_57_0 -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -D_CRT_SECURE_NO_WARNINGS -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o x64\Debug\Analysers.cu.obj "D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\Analysers.cu" 
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(838): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1017): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1078): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1088): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1095): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1107): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1115): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1125): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1132): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1151): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1158): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(838): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1017): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1078): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1088): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1095): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1107): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1115): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1125): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1132): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1151): warning : controlling expression is constant
+     1>D:\C++\vs2013\x64\boost_1_57_0\boost/filesystem/operations.hpp(1158): warning : controlling expression is constant
+         Analysers.cu
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(29): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned short', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(58): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned short', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(125): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(152): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(174): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned short', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(205): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(243): warning C4267: 'argument' : conversion from 'size_t' to 'const uint16_t', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(338): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned short', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(368): warning C4267: 'argument' : conversion from 'size_t' to 'const unsigned short', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(428): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(428): warning C4267: 'argument' : conversion from 'size_t' to 'const uint32_t', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(533): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(533): warning C4267: 'argument' : conversion from 'size_t' to 'const uint32_t', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(581): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(581): warning C4267: 'argument' : conversion from 'size_t' to 'const uint32_t', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(780): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(841): warning C4018: '>' : signed/unsigned mismatch
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(852): warning C4018: '<' : signed/unsigned mismatch
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(872): warning C4018: '>=' : signed/unsigned mismatch
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(877): warning C4267: '=' : conversion from 'size_t' to 'int32_t', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(891): warning C4018: '>=' : signed/unsigned mismatch
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1239): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1308): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1323): warning C4267: 'initializing' : conversion from 'size_t' to 'long', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1522): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1525): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1540): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1545): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1548): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1563): warning C4267: 'argument' : conversion from 'size_t' to 'unsigned int', possible loss of data
+     1>D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(1643): warning C4267: '=' : conversion from 'size_t' to 'uint32_t', possible loss of data
+     1>C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(1149): warning C4267: 'argument' : conversion from 'size_t' to 'uint32_t', possible loss of data
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(1137) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>::_Do_call<,0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07>(std::tuple<>,std::_Arg_idx<0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07>)' being compiled
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\functional(1137) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>::_Do_call<,0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07>(std::tuple<>,std::_Arg_idx<0x00,0x01,0x02,0x03,0x04,0x05,0x06,0x07>)' being compiled
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthread(195) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>::operator ()<>(void)' being compiled
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthread(195) : see reference to function template instantiation 'void std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>::operator ()<>(void)' being compiled
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthread(192) : while compiling class template member function 'unsigned int std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *)'
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthread(187) : see reference to function template instantiation 'unsigned int std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *)' being compiled
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thr/xthread(205) : see reference to class template instantiation 'std::_LaunchPad<_Target>' being compiled
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\thread(49) : see reference to function template instantiation 'void std::_Launch<std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>>(_Thrd_t *,_Target &&)' being compiled
+                 with
+                 [
+                     _Target=std::_Bind<true,void,void (__cdecl *const )(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float *,float *,short *,signed char *,unsigned int,unsigned int,unsigned __int64,unsigned __int64>
+                 ]
+                 D:/Projects/Thesis/Spin_Models/IsingSpin/IsingSpin/Analysers.cu(763) : see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t),float*&,float*&,int16_t*&,int8_t*&,const uint32_t&,const uint32_t&,size_t&,size_t&>(_Fn,float *&,float *&,int16_t *&,int8_t *&,const uint32_t &,const uint32_t &,size_t &,size_t &)' being compiled
+                 with
+                 [
+                     _Fn=void (__cdecl &)(float *,float *,int16_t *,int8_t *,uint32_t,uint32_t,uint32_t,size_t)
+                 ]
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\IsingSpin.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\C++\vs2013\x64\boost_1_57_0\stage\lib /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\lib\x64" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\IsingSpin.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\IsingSpin.lib" /MACHINE:X64 x64\Debug\Analysers.cu.obj
+         x64\Debug\IsingSpin.cu.obj
+         x64\Debug\Source.cu.obj
+         x64\Debug\FileIO.obj
+         x64\Debug\Quench.obj
+         IsingSpin.vcxproj -> D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\IsingSpin.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 file(s) copied.
+     1>Done Building Project "D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\IsingSpin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.60

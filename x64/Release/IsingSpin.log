@@ -1,0 +1,17 @@
+﻿Build started 2015/11/11 08:08:50.
+     1>Project "D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\IsingSpin.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         IsingSpin.vcxproj -> D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Release\IsingSpin.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Release\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Release\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart*.dll" "D:\Projects\Thesis\Spin_Models\IsingSpin\x64\Release\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart32_70.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.0\bin\cudart64_70.dll
+                 2 file(s) copied.
+     1>Done Building Project "D:\Projects\Thesis\Spin_Models\IsingSpin\IsingSpin\IsingSpin.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.61

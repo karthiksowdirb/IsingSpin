@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{708735fe-5d98-4739-91ef-7739ca0352fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4ddb82ee-d58d-433e-9e3a-388acc504684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernels">
+      <UniqueIdentifier>{f8021eef-0bf0-419d-87a4-999726bf5e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\FileIO">
+      <UniqueIdentifier>{5760c7a9-505d-408f-8ca7-91f3593385e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\FileIO.cpp">
+      <Filter>Headers\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Quench.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\FileIO.h">
+      <Filter>Headers\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="IsingSpin.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Quench.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Analysers.cuh">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="IsingSpin.cu">
+      <Filter>Kernels</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Analysers.cu">
+      <Filter>Sources</Filter>
+    </CudaCompile>
+    <CudaCompile Include="Source.cu">
+      <Filter>Sources</Filter>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="parameters.txt">
+      <Filter>Sources</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
